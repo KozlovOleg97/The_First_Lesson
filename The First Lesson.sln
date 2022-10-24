@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The First Lesson", "The First Lesson.csproj", "{4AB65E8B-4C62-4362-BEA0-8AC27DEFD632}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The First Lesson", "The First Lesson.csproj", "{4AB65E8B-4C62-4362-BEA0-8AC27DEFD632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryAnimals", "..\ClassLibraryAnimals\ClassLibraryAnimals.csproj", "{A5F3747E-902E-46A2-B695-C1046F57185B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4AB65E8B-4C62-4362-BEA0-8AC27DEFD632}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AB65E8B-4C62-4362-BEA0-8AC27DEFD632}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AB65E8B-4C62-4362-BEA0-8AC27DEFD632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F3747E-902E-46A2-B695-C1046F57185B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F3747E-902E-46A2-B695-C1046F57185B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F3747E-902E-46A2-B695-C1046F57185B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F3747E-902E-46A2-B695-C1046F57185B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
