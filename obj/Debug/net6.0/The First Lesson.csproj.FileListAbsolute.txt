@@ -13,3 +13,6 @@ D:\Projects\The First Lesson\obj\Debug\net6.0\refint\The First Lesson.dll
 D:\Projects\The First Lesson\obj\Debug\net6.0\The First Lesson.pdb
 D:\Projects\The First Lesson\obj\Debug\net6.0\The First Lesson.genruntimeconfig.cache
 D:\Projects\The First Lesson\obj\Debug\net6.0\ref\The First Lesson.dll
+D:\Projects\The First Lesson\bin\Debug\net6.0\ClassLibraryAnimals.dll
+D:\Projects\The First Lesson\bin\Debug\net6.0\ClassLibraryAnimals.pdb
+D:\Projects\The First Lesson\obj\Debug\net6.0\The First Lesson.csproj.CopyComplete
