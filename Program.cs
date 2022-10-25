@@ -2,13 +2,13 @@
 
 using ClassLibraryAnimals;
 
-Animal horse = new Horse("Horse");
+Animal horse = new Horse();
 
-Animal leopard = new Leopard("Leopard");
+Animal leopard = new Leopard();
 
-Animal tiger = new Tiger("Tiger");
+Animal tiger = new Tiger();
 
-Animal rabbit = new Rabbit("Rabbit");
+Rabbit rabbit = new Rabbit();
 
 horse.Move();
 leopard.Move();
