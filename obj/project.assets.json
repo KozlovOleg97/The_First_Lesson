@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ClassLibraryAnimals/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryAnimals.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryAnimals.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ClassLibraryAnimals/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibraryAnimals/ClassLibraryAnimals.csproj",
+      "msbuildProject": "../ClassLibraryAnimals/ClassLibraryAnimals.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ClassLibraryAnimals >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Samsung\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\ClassLibraryAnimals\\ClassLibraryAnimals.csproj": {
+              "projectPath": "D:\\Projects\\ClassLibraryAnimals\\ClassLibraryAnimals.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

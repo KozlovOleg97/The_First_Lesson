@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "The First Lesson/1.0.0": {
+        "dependencies": {
+          "ClassLibraryAnimals": "1.0.0"
+        },
         "runtime": {
           "The First Lesson.dll": {}
+        }
+      },
+      "ClassLibraryAnimals/1.0.0": {
+        "runtime": {
+          "ClassLibraryAnimals.dll": {}
         }
       }
     }
   },
   "libraries": {
     "The First Lesson/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryAnimals/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
